@@ -1,0 +1,16 @@
+class Solution
+{
+    static int searchInSorted(int arr[], int N, int K) 
+    {
+        ArrayList<Integer> m = new ArrayList<Integer>();
+        for(int i=0;i<N;i++)
+        {
+            m.add(arr[i]);
+        }
+        if(!m.contains(K))
+        {
+            return -1;
+        }
+    return 1;
+    }
+}
